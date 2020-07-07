@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/demo.css">
+    <title>Test</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="/img/img.jpeg" alt="Avatar" class="avatar" id="avatar">
+        </div>
+        <div class="data">
+            <label for="name"><b>First Name</b></label>
+            <input type="text" id="name" name="name">
+
+
+            <label for="lastname"><b>Last Name</b></label>
+            <input type="text" id="lastname" name="lastname">
+        </div>
+        <div class="actions">
+            <button type="button" onclick="console.log(document.getElementById('name').value)">
+                Enter
+            </button>
+        </div>
+    </div>
+
+    <script src="/js/demo.js"></script>
+
+</body>
+
+</html>
